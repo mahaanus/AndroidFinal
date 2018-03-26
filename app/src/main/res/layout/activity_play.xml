@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.apackage.yvyor.androidfinal.PlayActivity">
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_alignLeft="@id/textButton16"
+        android:layout_alignTop="@id/textButton16"
+        android:layout_alignRight="@id/textButton16"
+        android:layout_alignBottom="@id/textButton16"
+        app:srcCompat="@drawable/image_1" />
+
+    <TextView
+        android:id="@+id/textButton16"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_alignBaseline="@+id/textButton15"
+        android:layout_alignBottom="@+id/textButton15"
+        android:layout_alignStart="@+id/textButton12"
+        android:text="X"
+        android:textAlignment="center"
+        android:textSize="48sp" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_alignLeft="@id/textButton15"
+        android:layout_alignTop="@id/textButton15"
+        android:layout_alignRight="@id/textButton15"
+        android:layout_alignBottom="@id/textButton15"
+        app:srcCompat="@drawable/image_1" />
+
+    <TextView
+        android:id="@+id/textButton15"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_above="@+id/score_TextView"
+        android:layout_alignStart="@+id/textButton11"
+        android:text="X"
+        android:textAlignment="center"
+        android:textSize="48sp" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_alignLeft="@id/textButton14"
+        android:layout_alignTop="@id/textButton14"
+        android:layout_alignRight="@id/textButton14"
+        android:layout_alignBottom="@id/textButton14"
+        app:srcCompat="@drawable/image_1" />
+
+    <TextView
+        android:id="@+id/textButton14"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_above="@+id/score_TextView"
+        android:layout_alignStart="@+id/textButton10"
+        android:text="X"
+        android:textAlignment="center"
+        android:textSize="48sp" />
+
+
+
+    <TextView
+        android:id="@+id/timer_TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="28dp"
+        android:layout_marginTop="24dp"
+        android:text="TIMER"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/nextNumber_TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/timer_TextView"
+        android:layout_alignBottom="@+id/timer_TextView"
+        android:layout_alignStart="@+id/textButton1"
+        android:text="NextNumber"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/score_TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="14dp"
+        android:text="SCORE"
+        android:textSize="36sp" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_alignLeft="@id/textButton1"
+        android:layout_alignTop="@id/textButton1"
+        android:layout_alignRight="@id/textButton1"
+        android:layout_alignBottom="@id/textButton1"
+        app:srcCompat="@drawable/image_1" />
+
+    <TextView
+        android:id="@+id/textButton1"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/nextNumber_TextView"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="61dp"
+        android:text="X"
+        android:textAlignment="center"
+        android:textSize="48sp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_alignLeft="@id/textButton2"
+        android:layout_alignTop="@id/textButton2"
+        android:layout_alignRight="@id/textButton2"
+        android:layout_alignBottom="@id/textButton2"
+        app:srcCompat="@drawable/image_1" />
+
+    <TextView
+        android:id="@+id/textButton2"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_alignBaseline="@+id/textButton1"
+        android:layout_alignBottom="@+id/textButton1"
+        android:layout_marginEnd="18dp"
+        android:layout_toStartOf="@+id/textButton3"
+        android:text="X"
+        android:textAlignment="center"
+        android:textSize="48sp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_alignLeft="@id/textButton3"
+        android:layout_alignTop="@id/textButton3"
+        android:layout_alignRight="@id/textButton3"
+        android:layout_alignBottom="@id/textButton3"
+        app:srcCompat="@drawable/image_1" />
+
+    <TextView
+        android:id="@+id/textButton3"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_alignBaseline="@+id/textButton2"
+        android:layout_alignBottom="@+id/textButton2"
+        android:layout_toStartOf="@+id/timer_TextView"
+        android:text="X"
+        android:textAlignment="center"
+        android:textSize="48sp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_alignLeft="@id/textButton4"
+        android:layout_alignTop="@id/textButton4"
+        android:layout_alignRight="@id/textButton4"
+        android:layout_alignBottom="@id/textButton4"
+        app:srcCompat="@drawable/image_1" />
+
+    <TextView
+        android:id="@+id/textButton4"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_alignBaseline="@+id/textButton3"
+        android:layout_alignBottom="@+id/textButton3"
+        android:layout_alignEnd="@+id/timer_TextView"
+        android:text="X"
+        android:textAlignment="center"
+        android:textSize="48sp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_alignLeft="@id/textButton5"
+        android:layout_alignTop="@id/textButton5"
+        android:layout_alignRight="@id/textButton5"
+        android:layout_alignBottom="@id/textButton5"
+        app:srcCompat="@drawable/image_1" />
+
+    <TextView
+        android:id="@+id/textButton5"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_alignStart="@+id/textButton1"
+        android:layout_below="@+id/textButton1"
+        android:layout_marginTop="20dp"
+        android:text="X"
+        android:textAlignment="center"
+        android:textSize="48sp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_alignLeft="@id/textButton6"
+        android:layout_alignTop="@id/textButton6"
+        android:layout_alignRight="@id/textButton6"
+        android:layout_alignBottom="@id/textButton6"
+        app:srcCompat="@drawable/image_1" />
+
+    <TextView
+        android:id="@+id/textButton6"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_alignBaseline="@+id/textButton5"
+        android:layout_alignBottom="@+id/textButton5"
+        android:layout_alignStart="@+id/textButton2"
+        android:text="X"
+        android:textAlignment="center"
+        android:textSize="48sp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_alignLeft="@id/textButton7"
+        android:layout_alignTop="@id/textButton7"
+        android:layout_alignRight="@id/textButton7"
+        android:layout_alignBottom="@id/textButton7"
+        app:srcCompat="@drawable/image_1" />
+
+    <TextView
+        android:id="@+id/textButton7"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_alignBaseline="@+id/textButton6"
+        android:layout_alignBottom="@+id/textButton6"
+        android:layout_alignStart="@+id/textButton3"
+        android:text="X"
+        android:textAlignment="center"
+        android:textSize="48sp" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_alignLeft="@id/textButton8"
+        android:layout_alignTop="@id/textButton8"
+        android:layout_alignRight="@id/textButton8"
+        android:layout_alignBottom="@id/textButton8"
+        app:srcCompat="@drawable/image_1" />
+
+    <TextView
+        android:id="@+id/textButton8"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_alignBaseline="@+id/textButton7"
+        android:layout_alignBottom="@+id/textButton7"
+        android:layout_alignStart="@+id/textButton4"
+        android:text="X"
+        android:textAlignment="center"
+        android:textSize="48sp" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_alignLeft="@id/textButton9"
+        android:layout_alignTop="@id/textButton9"
+        android:layout_alignRight="@id/textButton9"
+        android:layout_alignBottom="@id/textButton9"
+        app:srcCompat="@drawable/image_1" />
+
+    <TextView
+        android:id="@+id/textButton9"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_alignStart="@+id/textButton5"
+        android:layout_below="@+id/textButton5"
+        android:layout_marginTop="26dp"
+        android:text="X"
+        android:textAlignment="center"
+        android:textSize="48sp" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_alignLeft="@id/textButton10"
+        android:layout_alignTop="@id/textButton10"
+        android:layout_alignRight="@id/textButton10"
+        android:layout_alignBottom="@id/textButton10"
+        app:srcCompat="@drawable/image_1" />
+
+    <TextView
+        android:id="@+id/textButton10"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_alignBaseline="@+id/textButton9"
+        android:layout_alignBottom="@+id/textButton9"
+        android:layout_alignStart="@+id/textButton6"
+        android:text="X"
+        android:textAlignment="center"
+        android:textSize="48sp" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_alignLeft="@id/textButton11"
+        android:layout_alignTop="@id/textButton11"
+        android:layout_alignRight="@id/textButton11"
+        android:layout_alignBottom="@id/textButton11"
+        app:srcCompat="@drawable/image_1" />
+
+    <TextView
+        android:id="@+id/textButton11"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_alignBaseline="@+id/textButton10"
+        android:layout_alignBottom="@+id/textButton10"
+        android:layout_alignStart="@+id/textButton7"
+        android:text="X"
+        android:textAlignment="center"
+        android:textSize="48sp" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_alignLeft="@id/textButton12"
+        android:layout_alignTop="@id/textButton12"
+        android:layout_alignRight="@id/textButton12"
+        android:layout_alignBottom="@id/textButton12"
+        app:srcCompat="@drawable/image_1" />
+
+    <TextView
+        android:id="@+id/textButton12"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_alignBaseline="@+id/textButton11"
+        android:layout_alignBottom="@+id/textButton11"
+        android:layout_alignStart="@+id/textButton8"
+        android:text="X"
+        android:textAlignment="center"
+        android:textSize="48sp" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_alignLeft="@id/textButton13"
+        android:layout_alignTop="@id/textButton13"
+        android:layout_alignRight="@id/textButton13"
+        android:layout_alignBottom="@id/textButton13"
+        app:srcCompat="@drawable/image_1" />
+    <TextView
+        android:id="@+id/textButton13"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_alignBaseline="@+id/textButton14"
+        android:layout_alignBottom="@+id/textButton14"
+        android:layout_alignStart="@+id/textButton9"
+        android:text="X"
+        android:textAlignment="center"
+        android:textSize="48sp" />
+
+    <ImageView
+        android:id="@+id/star1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/score_TextView"
+        android:layout_alignEnd="@+id/imageView13"
+        android:layout_marginEnd="15dp"
+        app:srcCompat="@drawable/star_yellow" />
+
+    <ImageView
+        android:id="@+id/star2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/imageView16"
+        android:layout_alignTop="@+id/star1"
+        android:layout_marginStart="15dp"
+        app:srcCompat="@drawable/star_yellow" />
+
+    <ImageView
+        android:id="@+id/stateImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="12dp"
+        android:layout_toStartOf="@+id/timer_TextView"
+        app:srcCompat="@drawable/up" />
+
+</RelativeLayout>
